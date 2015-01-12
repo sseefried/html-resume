@@ -1,1 +1,1 @@
-rsync -avz . 'mco:/home/sseefried/domains/seanseefried.com/public'
+rsync -avz . 'playspace:/home/sseefried/sites/seanseefried.com/public'
