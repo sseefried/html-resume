@@ -57,10 +57,12 @@ li { margin: 5px; }
 <h1 align="center">Dr Sean Seefried</h1>
 <hr>
 
+This is a PDF version of an online CV. For the full experience, replete
+with hyperlinks, please visit <a href="http://seanseefried.com">seanseefried.com</a>
+
 <!-- Education -->
 
 <h2>Education</h2>
-
 
 <h3>PhD in Computer Science</h3>
 University of New South Wales, Sydney, Australia<br/>
@@ -85,31 +87,72 @@ Thesis: <em>Towards Totally Functional Programming</em><br/>
     <li><b>Languages:</b>
       <a href="http://www.haskell.org">Haskell</a>,
       <a href="http://caml.inria.fr">OCaml</a>,
-        Isabelle/HOL, Agda, Scala, C, Scala, sh/bash, Ruby, HTML, CSS, Javascript, Java, C++.
+      Isabelle/HOL, Ruby, Javascript, HTML, CSS, Agda, Scala, C, sh/bash, Java, C++.
     </li>
-    <li><b>Web Frameworks:</b> Ruby on Rails, ASP.NET, Yesod
-    <li><b>Operating systems:</b> Mac OS X/Darwin, Linux, BSD</li>
-     <li><b>Source control:</b> git, Mercurial, Subversion, <a href="http://darcs.net/">darcs</a></li>
-     <li><b>Databases:</b> PostgreSQL, MySQL, SQL Server
-     <li><b>Tools:</b> Emacs, Apache, nginx, mongrel, Phusion Passenger</li>
-     <li>...and many more that escape my mind</li>
+    <li><b>GitHub:</b> <a href="https://github.com/sseefried">github.com/sseefried</a></b></li>
+    <li><b>Blog:</b> <a href="http://lambdalog.seanseefried.com">Lambdalog</a>
+    <li><b>Web Frameworks:</b> Ruby on Rails, Node.js, ASP.NET, Yesod
+    <li><b>Operating systems:</b> Mac OS X/Darwin, Linux</li>
+    <li><b>Source control:</b> git, Mercurial, Subversion, <a href="http://darcs.net/">darcs</a></li>
+    <li><b>Databases:</b> PostgreSQL, MySQL, SQL Server, Cassandra
+    <li><b>Tools:</b> Apache, nginx, mongrel, Phusion Passenger, Vagrant, Ansible, Docker</li>
+    <li>...and many more that escape my mind</li>
 </ul>
 
 <h2>Employment History</h2>
 
+<h3>BitTrade Labs (May 2016 - present)</h3>
 
-<h3>Web development contractor (March 2014 to present)</h3>
 <ul>
-  <li>Mar 2014 - present. Contracting for various small web development studios
-      (30Acres, Dawson Media).
+  <li>
+    I took this role to gain commercial experience using blockchain
+    technology. My role involves working on internal products and consulting
+    to companies on the advantages and disadvantages of using blockchain
+    technology.  Blockchains I have already developed software for are Bitcoin,
+    Ethereum and Factom.
   </li>
-  <li>Working on a video game in the remaining time.</li>
 </ul>
 
-<h3>Researcher, NICTA (November 2010 to March 2014)</h3>
+<h3>IAG (September 2015 - May 2016)</h3>
+<ul>
+  <li>
+    Worked on an Entity Resolution platform written in Haskell.
+    This particular role enhanced my ability to write concurrent,
+    high performance Haskell that ran with reasonable memory requirements.
+    Made heavy use of streaming libraries such as Pipes and Quiver.
+  </li>
+</ul>
+
+
+<h3>Web development contractor/game developer (March 2014 - Sep 2015)</h3>
+<ul>
+  <li>Mar 2014 - present. Contracting for various web development studios
+      (<a href="http://30acres.com.au">30Acres</a>,
+       <a href="http://www.directclicks.com.au/">Dawson Media</a>).
+    Most of the web development work is in Ruby on Rails. Database technologies are standard: MySQL
+    and PostgreSQL. I'm responsible for a lot of system administration too. I use platforms such as
+    Amazon Web Services, Digital Ocean, and tools such as Vagrant, Ansible and Docker to simplify
+    provisioning and deployment and make it repeatable. Client work sometimes
+    requires me to perform the dirty job of maintaining and extending PHP applications.
+  </li>
+  <li>Mar 2014 - present. Game development in Haskell.
+    Developed a simple independent video game. Tried of hearing that Haskell
+    couldn't be used for "real world" applications I decided to develop a game for both iOS and
+    Android. Released a Docker
+    <a href="https://github.com/sseefried/docker-build-ghc-android">container</a> encapsulating
+    all this  work and the game <a href="https://github.com/sseefried/open-epidemic-game">here</a>.
+    I also wrote a blog
+    <a href="http://lambdalog.seanseefried.com/posts/2014-12-12-docker-build-scripts.html">post</a>
+    explaining an interesting use-case for  Docker as a means of simplifying the development of
+    long-running build scripts.
+  </li>
+
+</ul>
+
+<h3>Senior Research Engineer, NICTA (November 2010 to March 2014)</h3>
 <ul>
   <li>Dec 2011-Mar 2014. Working with the Verification Group in the Software Systems Research Group
-     (SSRG). I do proof maintenance on the seL4 operating system kernel. NICTA is the first research
+     (SSRG). I did proof maintenance on the seL4 operating system kernel. NICTA is the first research
      institute in the world to have verified an operating system kernel. Program verification is
      the highest level of assurance of program correctness you can get and a lot of functional
      programming techniques are used in program verification. (The theorem prover itself is
@@ -290,11 +333,11 @@ The approaches used in that library could also be applicable to Big Data.</li>
       All numbers have a unique prime factorisation and this little program animates that.
       The dots group themselves together in little groups of primes. e.g. 30 is represented as
       5 groups of 3 groups of 2. Further <a href="http://mathlesstraveled.com/2012/10/05/factorization-diagrams/">explanation</a> can be found at Brent Yorgey's site.
-      This is another example of a program that relies on the power of higher-order functions. Again, prototyped in Haskell, writte in JavaScript.
+      This is another example of a program that relies on the power of higher-order functions. Again, prototyped in Haskell, written in JavaScript.
     </li>
 
   <li><a href="http://playspace.seanseefried.com">PlaySpace Online</a> &mdash; A web application that allows you to write interactive 3D effects in Conal Elliott's Shady language.
-    Web server, compiler and GLSL compiler writte completely in Haskell, with a small amount o JavaScript on the client side.
+    Web server, compiler and GLSL compiler writte completely in Haskell, with a small amount of JavaScript on the client side.
   </li>
 
   <li>A re-implementation of the
